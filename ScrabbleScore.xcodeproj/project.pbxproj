@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19851020201FA467006C261D /* ScrabbleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1985101F201FA467006C261D /* ScrabbleService.swift */; };
 		19BB544820125673007864D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BB544720125673007864D1 /* AppDelegate.swift */; };
 		19BB544A20125673007864D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BB544920125673007864D1 /* ViewController.swift */; };
 		19BB544D20125673007864D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19BB544B20125673007864D1 /* Main.storyboard */; };
 		19BB544F20125673007864D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19BB544E20125673007864D1 /* Assets.xcassets */; };
 		19BB545220125673007864D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19BB545020125673007864D1 /* LaunchScreen.storyboard */; };
 		19BB545D20125673007864D1 /* ScrabbleScoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BB545C20125673007864D1 /* ScrabbleScoreTests.swift */; };
+		19BB546A20128E0A007864D1 /* ScrabbleScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BB546920128E0A007864D1 /* ScrabbleScore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1985101F201FA467006C261D /* ScrabbleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrabbleService.swift; sourceTree = "<group>"; };
 		19BB544420125673007864D1 /* ScrabbleScore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrabbleScore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19BB544720125673007864D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		19BB544920125673007864D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +39,7 @@
 		19BB545820125673007864D1 /* ScrabbleScoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrabbleScoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		19BB545C20125673007864D1 /* ScrabbleScoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrabbleScoreTests.swift; sourceTree = "<group>"; };
 		19BB545E20125673007864D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19BB546920128E0A007864D1 /* ScrabbleScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrabbleScore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 				19BB544E20125673007864D1 /* Assets.xcassets */,
 				19BB545020125673007864D1 /* LaunchScreen.storyboard */,
 				19BB545320125673007864D1 /* Info.plist */,
+				19BB546920128E0A007864D1 /* ScrabbleScore.swift */,
+				1985101F201FA467006C261D /* ScrabbleService.swift */,
 			);
 			path = ScrabbleScore;
 			sourceTree = "<group>";
@@ -199,8 +205,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19BB546A20128E0A007864D1 /* ScrabbleScore.swift in Sources */,
 				19BB544A20125673007864D1 /* ViewController.swift in Sources */,
 				19BB544820125673007864D1 /* AppDelegate.swift in Sources */,
+				19851020201FA467006C261D /* ScrabbleService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
