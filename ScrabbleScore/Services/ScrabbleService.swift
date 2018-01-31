@@ -21,7 +21,7 @@ class ScrabbleService: NSObject, ScrService, URLSessionDelegate {
     }()
     
     func getScore(with word: String, completionHandler: @escaping (ScrabbleScore?, Error?) -> Void) {
-        let scrabbleUrl = "http://INSERTIPHERE:8080/score?word=\(word)"
+        let scrabbleUrl = "http://10.20.30.79:8080/score?word=\(word)"
 
         guard let request = URL(string: scrabbleUrl) else { return }
         
@@ -48,6 +48,7 @@ class ScrabbleService: NSObject, ScrService, URLSessionDelegate {
                 let scr = dataAsJSON["score"] as? Int  {
                 
                 let scrScore = ScrabbleScore(word: wrd, score: scr)
+                
                 completionHandler(scrScore,nil)
             } else {
                 completionHandler(nil, nil)

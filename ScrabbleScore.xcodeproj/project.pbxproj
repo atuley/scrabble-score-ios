@@ -82,13 +82,12 @@
 			isa = PBXGroup;
 			children = (
 				19BB544720125673007864D1 /* AppDelegate.swift */,
-				19BB544920125673007864D1 /* ViewController.swift */,
-				19BB544B20125673007864D1 /* Main.storyboard */,
-				19BB544E20125673007864D1 /* Assets.xcassets */,
-				19BB545020125673007864D1 /* LaunchScreen.storyboard */,
+				A2853DFC202265BF00EF91ED /* Storyboards */,
+				A2853DFD202265CA00EF91ED /* ViewControllers */,
+				A2853DFB202265B300EF91ED /* Models */,
+				A2853DFE202265D500EF91ED /* Services */,
 				19BB545320125673007864D1 /* Info.plist */,
-				19BB546920128E0A007864D1 /* ScrabbleScore.swift */,
-				1985101F201FA467006C261D /* ScrabbleService.swift */,
+				19BB544E20125673007864D1 /* Assets.xcassets */,
 			);
 			path = ScrabbleScore;
 			sourceTree = "<group>";
@@ -100,6 +99,39 @@
 				19BB545E20125673007864D1 /* Info.plist */,
 			);
 			path = ScrabbleScoreTests;
+			sourceTree = "<group>";
+		};
+		A2853DFB202265B300EF91ED /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				19BB546920128E0A007864D1 /* ScrabbleScore.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A2853DFC202265BF00EF91ED /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				19BB545020125673007864D1 /* LaunchScreen.storyboard */,
+				19BB544B20125673007864D1 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		A2853DFD202265CA00EF91ED /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				19BB544920125673007864D1 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A2853DFE202265D500EF91ED /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1985101F201FA467006C261D /* ScrabbleService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
