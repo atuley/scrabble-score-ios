@@ -9,7 +9,7 @@
 import Foundation
 
 protocol ScrService {
-    func getScore(with barcode: String, completionHandler: @escaping (ScrabbleScore?, Error?) -> Void)
+    func getScore(with word: String, completionHandler: @escaping (ScrabbleScore?, Error?) -> Void)
     func cancel()
 }
 
